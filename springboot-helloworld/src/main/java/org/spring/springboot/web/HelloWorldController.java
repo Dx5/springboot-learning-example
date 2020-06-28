@@ -15,4 +15,9 @@ public class HelloWorldController {
     public String sayHello() {
         return "Hello,World!";
     }
+
+    @RequestMapping("/begin")
+    public String sayHelloBegin() {
+        return "Hello,World Begin!";
+    }
 }
