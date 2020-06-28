@@ -16,6 +16,11 @@ public class HelloWorldController {
         return "Hello,World!";
     }
 
+    @RequestMapping("/testGit")
+    public String sayHelloGit() {
+        return "Hello,World testGit!";
+    }
+
     @RequestMapping("/begin")
     public String sayHelloBegin() {
         return "Hello,World Begin!";
